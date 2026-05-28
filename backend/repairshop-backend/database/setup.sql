@@ -62,6 +62,7 @@ CREATE TABLE IF NOT EXISTS repair_jobs (
 
 INSERT INTO users (full_name, email, password_hash, role, created_at) VALUES
 ('Admin User', 'admin@example.com', '$2b$10$s.n.fz8qUBBSHaw6R2ElB.Z8FjnAl.lWBbti5gkgCsOiNPnFN7hVu', 'admin', '2026-05-27 00:00:00'),
+('MacMac Admin', 'admin@macmac.com', '$2y$12$K.vIrkds26kNi3.84e6.X.DZqzEHnLMr2xj58OPFPOlRime8iWaqq', 'admin', '2026-05-28 00:00:00'),
 ('Jane Customer', 'jane@example.com', '$2b$10$3aeZkvjr7iKPkRbZsznv1uk91RAGwsuDx707j/EOPK8RgGCMwmIay', 'customer', '2026-05-27 00:00:00');
 
 INSERT INTO inventory (item_code, name, category, quantity, price, status, created_at, updated_at) VALUES

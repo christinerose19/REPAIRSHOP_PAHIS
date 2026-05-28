@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/../config/cors.php';
 require_once __DIR__ . '/../config/db_config.php';
+require_once __DIR__ . '/../database/connection.php';
 
 function startSession(): void
 {

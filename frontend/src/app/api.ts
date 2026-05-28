@@ -1,4 +1,6 @@
-export const API_BASE = 'http://localhost/repairshop-backend';
+export const API_BASE =
+  import.meta.env.VITE_API_BASE_URL ||
+  'http://localhost/REPAIRSHOP_PAHIS/backend/repairshop-backend';
 
 export async function fetchJson(endpoint: string, options: RequestInit = {}) {
   const response = await fetch(`${API_BASE}/${endpoint}`, {
